@@ -2,7 +2,6 @@ import React, { useState ,useRef} from 'react'
 import { useDispatch, useSelector } from "react-redux";
 import { loginAction, logoutAction } from '../actions';
 import '../styles/App.css';
-
 const LoginButton = () => {
   const dispatch = useDispatch();
   const inpRef = useRef();
